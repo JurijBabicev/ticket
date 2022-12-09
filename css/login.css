@@ -9,6 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family:monospace,'Courier New', Courier;
+    
 }
 
 
@@ -22,7 +23,6 @@ body {
     grid-template-columns: 55px auto auto 30px;
     background-color: lightgray;
     border: 2px outset #bebbbb;
-    
 }
 
 .grid-title {
@@ -36,23 +36,51 @@ body {
     font-weight: bold;
 }
 
-.grid-titlebt {
-    background-color: rgb(94 174 240);
-    width: 30px;
+.grid-body {
+    grid-column: 1/ span 4;
 }
 
-.emptyline {
-    grid-column: 1 / span 4;
-    height: 24px;
+a:link {
+    text-decoration: none;
+    color: gray;
 }
 
-.leftemoji {
-    text-align: right;
-    padding-right: 10px;
+a:visited{
+    text-decoration: none;
+    color: gray;
 }
 
-.entryfield {
-    grid-column: 2 / span 2;
-    
-    border: 1px solid gray;
+a:hover {
+    text-decoration: underline;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.passinput {
+    margin-bottom: 3px;
+}
+
+.register_me {
+    font-size:14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.agree {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.remembe_user {
+    font-size: 14px;
+    color: #a9a9a9;
+    margin-right: 0px;
+}
+
+.ok_button {
+    padding: 0 35px 0 35px;
+}
+
+.ok_button:hover {
+    background: rgb(179, 177, 177);
 }

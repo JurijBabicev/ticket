@@ -2,21 +2,30 @@
     <html>
         <head>
             <title>TKT</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="css/login.css">
         </head>
     <body>
-        
         <div class="grid-container">
             <div class="grid-title">Login</div>
             <div class="grid-titlebt">&#127384;</div>
-            <div class="emptyline"></div>
-            <div class="leftemoji">&#9993;</div>
-            <div class="entryfield">Electronic mail address</div>
-            <div></div>
-            <div class="emptyline"></div>
-            <div class="leftemoji">&#128477;</div>
-            <div class="entryfield">Secret word</div>
-            <div class="emptyline"></div>
+            <div class="grid-body">
+                <form action="#" method="POST">
+                    <p> &#9993;
+                        <input type="email" name="username" size="27" maxlenght="40" placeholder="Email address" />
+                    </p>
+                    <p class="passinput"> &#128477;
+                        <input type="password" name="password" size="27" maxlenght="40" placeholder="Password" />
+                    </p>
+                    <div class="register_me">
+                        <a href="#" alt="Registration form">I'm new user</a>
+                    </div>
+                    <p class="agree">
+                        <span > <input type="submit" value="OK" class="ok_button"/> </span>
+                        <span class="remembe_user"> <input type="checkbox" name="remembeme" value="remembeme" disabled class="remembe_user"/>Remembe me </span>
+                    </p>
+                </form>
+            </div>
         </div>
         
     </body>
